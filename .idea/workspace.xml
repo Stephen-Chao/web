@@ -17,13 +17,8 @@
         <entry file="file://$PROJECT_DIR$/../01_git_02/day02.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-<<<<<<< HEAD
-              <first_editor relative-caret-position="234">
-                <caret line="13" selection-start-line="13" selection-end-line="13" />
-=======
-              <first_editor relative-caret-position="432">
-                <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
->>>>>>> version1
+              <first_editor relative-caret-position="399">
+                <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
               </first_editor>
               <second_editor />
             </state>
@@ -91,20 +86,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604280123327</updated>
-<<<<<<< HEAD
-      <workItem from="1604280124526" duration="2593000" />
-=======
-      <workItem from="1604280124526" duration="3072000" />
->>>>>>> version1
+      <workItem from="1604280124526" duration="5044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="2593000" />
-=======
-    <option name="totallyTimeSpent" value="3072000" />
->>>>>>> version1
+    <option name="totallyTimeSpent" value="5044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -136,13 +123,8 @@
     <entry file="file://$PROJECT_DIR$/../01_git_02/day02.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-<<<<<<< HEAD
-          <first_editor relative-caret-position="234">
-            <caret line="13" selection-start-line="13" selection-end-line="13" />
-=======
-          <first_editor relative-caret-position="432">
-            <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
->>>>>>> version1
+          <first_editor relative-caret-position="399">
+            <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
           </first_editor>
           <second_editor />
         </state>
