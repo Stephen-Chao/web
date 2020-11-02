@@ -55,3 +55,46 @@ https://github.com/
     git push: 固定用法
     -u: 只在第一次推送时使用,以后就再也不需要添加了
     origin: 代名词,只带上一步关联时的远程仓库的url
+#### 3.5从远程仓库下载/拉取
+    - download Zip
+    - 使用git clone命令
+        git clone 远程仓库的url地址
+        将远程仓库作为一个文件夹完整的下载下来
+        这个文件夹就是一个仓库,里面包含了所有的提交信息
+        该命令一般只在第一次下载的时候使用
+    - 使用git pull命令
+        git pull:  是固定用法
+        origin:    与远程仓库关联的代名词
+        master:    表示下载的某个分支
+#### 3.6 查看当前有哪些关联
+    git remote        
+#### 3.7 删除已有的关联
+    git remote remove origin
+    git remote: 固定用法
+    remove: 删除关联
+    origin: 被删除的关联代名词
+## 4. HTTPS 和 SSH     
+    HTTPS方式: 每次推送代码都需要输入用户名和密码验证
+    SSH的方式: 
+        通过迷药实现身份验证的
+        密钥分两部分: 公钥,私钥
+        查看本机是否有密钥:
+            ls -a ~/.ssh
+        生成密钥:
+            ssh-keygen -t rsa -C "邮箱地址"
+        打开id_rsa.pub文件,全选复制
+        点击github右上角头像,选择settings
+        点击SSH and GPG keys
+        点击add SSH key
+        在title中填写名称(随便写)
+        在(key)中粘贴复制内容
+        点击add
+        关联远程仓库时,选择ssh方式
+        第一次推送需要输入yes,以后就再也不需要了
+## 5 GUI可视化工具的使用
+## 6 用户名.github.io 个人主页
+    1) 新建远程仓库,仓库名必须是 用户名,github.io
+    2) 如果远程仓库没有初始化,则本地初始化一个远程仓库 同时与其关联并推送
+        如果远程仓库已经初始化,则在本地使用git clone命令下载,此时本地仓库与远程仓库自动关联
+    3) 在项目的根目录下新建index.html(必须)
+        js/index.js css/index.css
